@@ -1,5 +1,5 @@
 # docker-nodered
-defines a docker container with node-red installed
+defines a docker container with the Node-RED IoT wireer installed
 
 ## Usage
 
@@ -9,7 +9,7 @@ defines a docker container with node-red installed
 1. **Test the node-red server**  
 Point your browser to:  
 http://localhost/    
-and you should see your node-red server.
+and you should see your Node-RED server.
 1. **[Optional] Stop the node-red docker server instance**  
 `docker stop nodered`
 1. **[Optional] Delete the node-red docker server instance (after stopping it)**  
