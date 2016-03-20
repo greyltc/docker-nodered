@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-pacman -S --needed --noconfirm --noprogress npm base-devel python2
+su docker -c 'pacaur -S --noprogressbar --noedit --noconfirm nvm'
+pacman -S --needed --noconfirm --noprogress python2
+source /usr/share/nvm/init-nvm.sh
+nvm install 4.4
 npm install -g --unsafe-perm node-pre-gyp
 npm install -g --unsafe-perm node-red
 # a nodes list is here: https://github.com/node-red/node-red-nodes
