@@ -9,4 +9,4 @@ npm install -g --unsafe-perm node-red-node-emoncms
 #npm install -g --unsafe-perm node-red-node-leveldb
 npm install -g --unsafe-perm node-red-node-mysql
 npm install -g --unsafe-perm node-red-node-sqlite
-
+npm install -g --unsafe-perm node-red-admin

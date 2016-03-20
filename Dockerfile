@@ -2,10 +2,13 @@
 FROM greyltc/archlinux
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
+# define a json flow file to load here
+ENV DEFAULT_FLOW ""
+
 # install node-red
-ADD setup-nodered.sh /usr/sbin/setup-node-red
+ADD setupNodeRed.sh /usr/sbin/setup-node-red
 RUN setup-node-red
 
-ADD run-nodered.sh /usr/bin/run-node-red
+ADD runNodeRed.sh /usr/bin/run-node-red
 
 CMD run-node-red
