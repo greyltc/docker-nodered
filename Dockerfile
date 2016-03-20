@@ -1,5 +1,5 @@
 # Arch Linux container with node-red IoT wireer
-FROM greyltc/archlinux
+FROM greyltc/archlinux-aur
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
 # define a json flow file to load here
