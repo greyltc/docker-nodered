@@ -5,7 +5,7 @@ defines a docker container with the Node-RED IoT wireer installed
 
 1. [**Install docker**](https://docs.docker.com/installation/)
 1. **Download and start the node-red server instance**  
-`docker run --name nodered -p 80:1800 -d greyltc/node-red`
+`docker run --name nodered -p 80:1880 -d greyltc/node-red`
 1. **Test the node-red server**  
 Point your browser to:  
 http://localhost/    
